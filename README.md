@@ -9,3 +9,6 @@ This is an internediate level js application built to test my javascript knowled
 5. Working with JSON data
 6. Multi-conditional statements with ternary operators
 7. Building out a small js library
+8. Closures
+9. Scoping and the scoping chain
+10. The this keyword

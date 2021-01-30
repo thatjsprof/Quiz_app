@@ -16,6 +16,32 @@
         },
         {
             "id": "q02",
+            "type": "fill-in",
+            "questionText": "Which company developed JavaScript?.",
+            "distractors": [],
+            "correctResp": "netscape", 
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Not quite. The company might have been called Netscape."
+            },
+            "weight": 1
+        },
+        {
+            "id": "q03",
+            "type": "multi-choice",
+            "questionText": "What is 'this' keyword in JavaScript?",
+            "distractors": ["This' keyword refers to the object from where it was called.", "This' keyword just points to global scope.", "This' keyword is an abstract variable."],
+            "correctResp": "This' keyword refers to the object from where it was called.",
+            "feedback": {
+                "noAnswer": "Please provide an answer first.",
+                "correctAnswer": "Well done! That is the correct response.",
+                "wrongAnswer": "Sorry, the correct answer may have been A"
+            },
+            "weight": 1
+        },
+        {
+            "id": "q04",
             "type": "multi-choice",
             "questionText": "Which keyword is used to declare block-scoped variables?",
             "distractors": ["var", "const", "let", "no declaration keyword"],
@@ -28,7 +54,7 @@
             "weight": 1
         },
         {
-            "id": "q03",
+            "id": "q05",
             "type": "true-false",
             "questionText": "Everything in JavaScript with the exception of primitive values are objects.",
             "distractors": ["true", "false"],
@@ -41,7 +67,7 @@
             "weight": 1
         },
         {
-            "id": "q04",
+            "id": "q06",
             "type": "fill-in",
             "questionText": "What command is used to convert an object to a JSON string?",
             "distractors": [],

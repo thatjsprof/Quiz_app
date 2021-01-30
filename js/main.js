@@ -93,7 +93,7 @@ let MAINAPP = (function(m, str, dom, gen) {
     Questions.prototype.populateQuestion = function() {
         window.quest = this
         if(this.htmlDiv) {
-            this.questionField.innerHTML = this.questionText
+            this.questionField.innerHTML = `${this.questionText} (${this.weight} marks)`
             this.noAnswerFeed.innerHTML = `<p class="text-danger"><span>X </span>${this.feedback.noAnswer}</p>`
             this.correctFeed.innerHTML = `<p><span>&#10003 </span>${this.feedback.correctAnswer}</p>`
             this.inccorrectFeed.innerHTML = `<p class="text-danger"><span>X </span>${this.feedback.wrongAnswer}</p>`

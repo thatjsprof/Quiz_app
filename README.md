@@ -1,5 +1,5 @@
 # Quiz_app
-This is an internediate level js application built to test my javascript knowledge. Built with vanilla javascript
+This is an intermediate level js application built to test my javascript knowledge. Built with vanilla javascript
 
 [Click this link to view project](https://thatjsprof.github.io/Quiz_app/) 
 ## Key concepts explored in this project

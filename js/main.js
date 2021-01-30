@@ -170,7 +170,7 @@ let MAINAPP = (function(m, str, dom, gen) {
                 options.forEach((option, index) => {
                     let input = option.querySelector('input')
                     if(input.checked) {
-                        this.checked.push(this.distractorText[index])
+                        this.checked.push(this.distractorText[index].toLowerCase())
                     }
                 })
                 this.correct = distractorArray.every(distractor => {

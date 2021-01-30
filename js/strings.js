@@ -9,7 +9,7 @@ var STR = (function(s) {
     var breakString = function(str, del) {
         var strR = str.split(del)
         return strR.map(value => {
-            return value.trim()
+            return value.toLowerCase().trim()
         })
     }
 

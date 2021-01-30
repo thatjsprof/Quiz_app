@@ -155,6 +155,7 @@ let MAINAPP = (function(m, str, dom, gen) {
     Questions.prototype.checkAnswer = function() {
         console.log(this)
         let distractorArray = str.breakString(this.correctResp, ',')
+        console.log(distractorArray)
         switch(this.questDiv) {
             case 'fill-in':
                 this.getAnswer("#input_field")

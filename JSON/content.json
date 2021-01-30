@@ -12,7 +12,7 @@
                 "correctAnswer": "Well done! That is the correct response.",
                 "wrongAnswer": "Not quite. There are 6 total primitive types. A new one was added with ES6."
             },
-            "weight": 1
+            "weight": 3
         },
         {
             "id": "q02",

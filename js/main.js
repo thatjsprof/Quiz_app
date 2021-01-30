@@ -111,14 +111,14 @@ let MAINAPP = (function(m, str, dom, gen) {
                 }
                 addEventChecked()
             }else {
-                // let answer
-                // answer = Array.isArray(this.answer) ? 
-                //     (
-                //         this.answer.join(',')
-                //     )
-                //     : 
-                //     this.answer
-                // dom.$("textarea")[0].innerHTML = answer
+                let answer
+                answer = Array.isArray(this.answer) ? 
+                    (
+                        this.answer.join(',')
+                    )
+                    : 
+                    this.answer
+                dom.$("textarea")[0].value = answer
             }
         }
     }
@@ -172,8 +172,8 @@ let MAINAPP = (function(m, str, dom, gen) {
                         this.checked.push(this.distractorText[index])
                     }
                 })
-                this.correct = this.checked.every(distractor => {
-                    return distractorArray.indexOf(distractor) > -1
+                this.correct = distractorArray.every(distractor => {
+                    return this.checked.indexOf(distractor) > -1
                 })
             default: 
                 // what is going to be the default bayi ehn?
@@ -259,7 +259,6 @@ let MAINAPP = (function(m, str, dom, gen) {
         let inputs = document.querySelectorAll('input')
         Array.from(inputs).forEach(input => {
             dom.eventList([input], 'change', function () {
-                input.checked = true
                 console.log('checked')
             })
         })

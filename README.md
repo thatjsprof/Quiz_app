@@ -13,3 +13,4 @@ This is an intermediate level js application built to test my javascript knowled
 8. Closures
 9. Scoping and the scoping chain
 10. The this keyword
+11. Hoisting

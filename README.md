@@ -3,7 +3,7 @@ This is an intermediate level js application built to test my javascript knowled
 
 [Click this link to view project](https://thatjsprof.github.io/Quiz_app/) 
 
-![Quiz app picture](/Quiz-app.png)
+![Quiz app picture](/Quiz-App.png)
 ## Key concepts explored in this project
 1. Object oriented programming concepts (prototypal inheritance e.t.c)
 2. Array methods

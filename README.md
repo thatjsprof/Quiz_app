@@ -2,6 +2,8 @@
 This is an intermediate level js application built to test my javascript knowledge. Built with vanilla javascript
 
 [Click this link to view project](https://thatjsprof.github.io/Quiz_app/) 
+
+![Quiz app picture](/Quiz_app.png)
 ## Key concepts explored in this project
 1. Object oriented programming concepts (prototypal inheritance e.t.c)
 2. Array methods
